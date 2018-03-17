@@ -6,4 +6,4 @@ Based on the [Portfolio one page template](https://github.com/website-templates/
 
 Demo: [http://website-templates.github.io/marketing-agency_one-page-template](http://website-templates.github.io/marketing-agency_one-page-template/)
 
-![Mockup demo](screenshots/pic.jpg)
+![demo](screenshots/sipsap.png)
