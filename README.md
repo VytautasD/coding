@@ -20,8 +20,8 @@
 ![demo](screenshots/l2soft.png)
 
 ### MOULDELIMINATORS
-![demo](screenshots/mouldeliminators.png)
-![demo](screenshots/mouldeliminators-page.png)
+![demo](screenshots/mouldeliminators.jpg)
+![demo](screenshots/mouldeliminators-page.jpg)
 
 ### Liberty
 ![demo](screenshots/liberty.png)
