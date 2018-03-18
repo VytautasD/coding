@@ -27,6 +27,7 @@
 
 ### ManageBuildings
 ![demo](screenshots/mb.png)
+![demo](screenshots/mouldeliminators-page.png)
 
 
 ### ReflexPoint
