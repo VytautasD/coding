@@ -1,5 +1,5 @@
 # SipSap
-[read code](sipsap/index.html) | [http://sipsap.eu](http://sipsap.eu)
+[http://sipsap.eu](http://sipsap.eu){:target="_blank"} | [read code](sipsap/index.html)
 ![demo](screenshots/sipsap.png)
 
 
@@ -9,5 +9,5 @@
 ![demo](screenshots/erlita-contact.png)
 
 # L2SOFT
-[https://l2soft.eu](https://l2soft.eu)
+[https://l2soft.eu](https://l2soft.eu){:target="_blank"}
 ![demo](screenshots/l2soft.png)
