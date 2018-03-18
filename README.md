@@ -1,5 +1,5 @@
 # SipSap
-[read code](sipsap/index.html) [read code](sipsap/index.html)
+[read code](sipsap/index.html) | [http://sipsap.eu](http://sipsap.eu)
 ![demo](screenshots/sipsap.png)
 
 
