@@ -24,4 +24,4 @@ Junior Front end
 ![demo](screenshots/liberty.png)
 
 # ManageBuildings
-![demo](screenshots/liberty.png)
+![demo](screenshots/mb.png)
