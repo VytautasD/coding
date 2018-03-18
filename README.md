@@ -7,7 +7,6 @@ Junior Front end
 # Last work's! 
 
 
-
 # SipSap
 [http://sipsap.eu](http://sipsap.eu) | [read code](sipsap/index.html)
 ![demo](screenshots/sipsap.png)
