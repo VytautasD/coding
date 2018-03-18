@@ -1,3 +1,3 @@
 # Portfolio
 
-![demo](sreenshots/sipsap.png)
+![demo](screenshots/sipsap.png)
