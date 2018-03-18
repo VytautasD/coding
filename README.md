@@ -10,12 +10,12 @@
 ![demo](screenshots/sipsap.png)
 
 
-### ERLITA
+### Erlita
 [read code](erlita/index.html)
 ![demo](screenshots/erlita.png)
 ![demo](screenshots/erlita-contact.png)
 
-### L2SOFT
+### L2Soft
 [https://l2soft.eu](https://l2soft.eu)
 ![demo](screenshots/l2soft.png)
 
