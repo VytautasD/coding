@@ -5,7 +5,7 @@ Junior Front end
 [VytautasDvelys@gmail.com](mailto:vytautasdvelys@gmail.com)
 
 
-Last work 
+Last work
 
 
 # SipSap
