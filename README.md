@@ -19,7 +19,7 @@
 [https://l2soft.eu](https://l2soft.eu)
 ![demo](screenshots/l2soft.png)
 
-### MOULDELIMINATORS
+### MouldEliminators
 ![demo](screenshots/mould-main.jpg)
 ##
 ![demo](screenshots/mouldeliminator-page.jpg)
