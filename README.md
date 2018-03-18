@@ -21,13 +21,14 @@
 
 ### MOULDELIMINATORS
 ![demo](screenshots/mouldeliminators.png)
+![demo](screenshots/mouldeliminators-page.png)
 
 ### Liberty
 ![demo](screenshots/liberty.png)
 
 ### ManageBuildings
 ![demo](screenshots/mb.png)
-![demo](screenshots/mouldeliminators-page.png)
+
 
 
 ### ReflexPoint
