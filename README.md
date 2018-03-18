@@ -2,7 +2,7 @@
 [http://sipsap.eu](http://sipsap.eu) | [read code](sipsap/index.html)
 ![demo](screenshots/sipsap.png)
 
-
+[link name](url_link){:target="_blank"}
 # ERLITA
 [read code](erlita/index.html)
 ![demo](screenshots/erlita.png)
