@@ -1,8 +1,7 @@
 # Portfolio Vytautas Dvelys
+# Junior Front end
 
-Junior Front end
-
-[mailto:vytautasdvelys@gmail.com](Vytautasdvelys@gmail.com)
+[VytautasDvelys@gmail.com](mailto:vytautasdvelys@gmail.com)
 
 
 # SipSap
