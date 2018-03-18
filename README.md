@@ -4,5 +4,6 @@
 
 
 # ERLITA
-[read code](sipsap/index.html)
+[read code](erlita/index.html)
 ![demo](screenshots/erlita.png)
+![demo](screenshots/erlita-contact.png)
