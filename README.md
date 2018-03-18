@@ -21,7 +21,7 @@
 
 ### MOULDELIMINATORS
 ![demo](screenshots/mouldeliminators2.jpg)
-![demo](screenshots/mouldeliminators-page.jpg)
+![demo](screenshots/mouldeliminator-page.jpg)
 
 ### Liberty
 ![demo](screenshots/liberty.png)
