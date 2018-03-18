@@ -1,5 +1,5 @@
 # Portfolio Vytautas Dvelys
-# Junior Front end
+Junior Front end
 
 [VytautasDvelys@gmail.com](mailto:vytautasdvelys@gmail.com)
 
