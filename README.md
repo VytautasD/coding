@@ -9,5 +9,5 @@
 ![demo](screenshots/erlita-contact.png)
 
 # L2SOFT
-[live](https://l2soft.eu)
+[https://l2soft.eu](https://l2soft.eu)
 ![demo](screenshots/l2soft.png)
