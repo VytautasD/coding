@@ -18,7 +18,6 @@
 ### Burger menu
 ![demo](screenshots/burger1.png)
 
-
 ### SipSap
 [http://sipsap.eu](http://sipsap.eu) | [read code](sipsap/index.html)
 ![demo](screenshots/sipsap.png)
@@ -35,9 +34,10 @@
 ![demo](screenshots/mouldeliminator-page.jpg)
 
 ### Liberty
+[https://libfc.ca](http://libfc.ca)
 ![demo](screenshots/liberty.png)
 
-### ManageBuildings
+### ManageBuildings blog
 ![demo](screenshots/mb.png)
 
 
