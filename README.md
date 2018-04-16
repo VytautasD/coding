@@ -16,7 +16,6 @@
 ![demo](screenshots/l2soft.png)
 
 ### Burger menu
-[read code]()
 ![demo](screenshots/burger1.png)
 
 
