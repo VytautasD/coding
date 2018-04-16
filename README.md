@@ -37,7 +37,7 @@
 [https://libfc.ca](http://libfc.ca)
 ![demo](screenshots/liberty.png)
 
-### ManageBuildings blog
+### Manage My Buildings Blog
 ![demo](screenshots/mb.png)
 
 
