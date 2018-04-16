@@ -7,8 +7,8 @@
 
 
 ### „Vilnius Coding School“ kursų baigiamasis darbas
-[http://codingschoolprojektai.lt/tmp/kgbootcamp/vytautas_dvelys/wp/](Wordpress version) | [read code](sipsap/index.html)
-![demo](screenshots/sipsap.png)
+[WordPress version](http://codingschoolprojektai.lt/tmp/kgbootcamp/vytautas_dvelys/wp/) | [HTML version](http://codingschoolprojektai.lt/tmp/kgbootcamp/vytautas_dvelys/html)
+![demo](screenshots/vcs.png)
 
 
 ### L2Soft
