@@ -4,7 +4,8 @@
 
 ##
 ## Last work
-Working on small projects/websites. For private uses and local networks.
+### Working on small projects/websites. For private uses and local networks.
+
 
 ### „Vilnius Coding School“ kursų baigiamasis darbas
 [WordPress version](http://codingschoolprojektai.lt/tmp/kgbootcamp/vytautas_dvelys/wp/) | [HTML version](http://codingschoolprojektai.lt/tmp/kgbootcamp/vytautas_dvelys/html)
