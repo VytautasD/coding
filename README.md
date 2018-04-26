@@ -25,7 +25,7 @@ Contact me: [VytautasDvelys@gmail.com](mailto:vytautasdvelys@gmail.com)
 
 
 ### Erlita
-[http://erlita.com - (closed..)] | [read code](erlita/index.html)
+http://erlita.com - (project closed) | [read code](erlita/index.html)
 ![demo](screenshots/erlita.png)
 ![demo](screenshots/erlita-contact.png)
 
