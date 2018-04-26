@@ -1,10 +1,11 @@
 ### Portfolio Vytautas Dvelys
 ### Junior Front end Developer
+Working on small projects/websites. For private uses and local networks.
 [VytautasDvelys@gmail.com](mailto:vytautasdvelys@gmail.com)
 
-Portfolio site - soon...
+Portfolio website - soon..
 
-Working on small projects/websites. For private uses and local networks.
+
 
 ##
 ## Last work
