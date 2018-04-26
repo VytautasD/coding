@@ -1,4 +1,4 @@
-### Portfolio Vytautas Dvelys
+### Vytautas Dvelys
 ### Junior Front end Developer
 Working on small projects/websites. For private uses and local networks.
 
@@ -6,10 +6,8 @@ Contact me: [VytautasDvelys@gmail.com](mailto:vytautasdvelys@gmail.com)
 
 Portfolio website - soon..
 
-
-
 ##
-## Last work
+## Portfolio Last work
 
 ### „Vilnius Coding School“ (course final project)
 [WordPress version](http://codingschoolprojektai.lt/tmp/kgbootcamp/vytautas_dvelys/wp/) | [HTML version](http://codingschoolprojektai.lt/tmp/kgbootcamp/vytautas_dvelys/html)
