@@ -1,0 +1,733 @@
+/*BODY DEFAULT*/
+body {
+    margin: 0;
+    font-size: 16px;
+}
+/*box-sizing*/
+*,
+*:before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*/box sizing end*/
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+/*BODY DEFAULT END*/
+
+
+    /*--------->>HEADER CONTENT <<----------*/
+
+.menu-header {
+    background-color: #007bff;
+}
+.logo {
+    padding: 30px 15px;
+}
+
+/*MENU*/
+.open {
+    z-index: 2;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+}
+
+.open:hover { opacity: 0.8; }
+
+.open nav {
+    display: block;
+    float: left;
+    clear: both;
+    height: 4px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.open nav:nth-child(1) {
+    margin-top: 10px;
+    z-index: 9;
+}
+
+.open nav:nth-child(2) { margin-top: 25px; }
+
+.open nav:nth-child(3) { margin-top: 40px; }
+
+.sub-menu {
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    height: 0;
+    width: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(38, 84, 133, 0.54);
+    border-radius: 50%;
+    z-index: 18;
+    overflow: hidden;
+}
+
+.sub-menu li {
+    display: block;
+    float: right;
+    clear: both;
+    height: auto;
+    margin-right: -160px;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sub-menu li:first-child { margin-top: 180px; }
+
+.sub-menu li:nth-child(1) { -webkit-transition-delay: 0.05s; }
+
+.sub-menu li:nth-child(2) { -webkit-transition-delay: 0.10s; }
+
+.sub-menu li:nth-child(3) { -webkit-transition-delay: 0.15s; }
+
+.sub-menu li:nth-child(4) { -webkit-transition-delay: 0.20s; }
+
+.sub-menu li:nth-child(5) { -webkit-transition-delay: 0.25s; }
+
+.sub-menu li a {
+    color: #fff;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    float: left;
+    line-height: 40px;
+    text-decoration: none;
+}
+.sub-menu li a:hover {
+    text-decoration: underline;
+}
+.oppenned .sub-menu {
+    opacity: 1;
+    height: 400px;
+    width: 400px;
+}
+
+.oppenned nav:nth-child(2) {
+    overflow: visible;
+}
+
+.oppenned nav:nth-child(1),
+.oppenned nav:nth-child(3) {
+    z-index: 100;
+    transform: rotate(45deg);
+}
+
+.oppenned nav:nth-child(1) {
+    transform: rotate(45deg)
+    translateY(12px)
+    translateX(12px);
+}
+
+.oppenned nav:nth-child(2) {
+    height: 400px;
+    width: 400px;
+    right: -160px;
+    top: -160px;
+    border-radius: 50%;
+    background-color: rgba(38, 84, 133, 0.54);
+}
+
+.oppenned nav:nth-child(3) {
+    transform: rotate(-45deg)
+    translateY(-10px)
+    translateX(10px); }
+
+.oppenned li {
+    margin-right: 168px;
+}
+
+/*MENU END*/
+
+/*BACKGROUND IMAGE */
+.bg {
+    background-image: url("../img/bg-content.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 60vh;
+
+    background-size: cover;
+    position: relative;
+}
+.bg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.bg-col {
+    color: white;
+    z-index: 1;
+    padding-bottom: 50px;
+}
+
+/*BACKGROUND IMAGE END*/
+
+/*TYPING*/
+
+.typewrite {
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+}
+.typing {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+.bg-content {
+    z-index: 1;
+}
+
+/*/TYPING END*/
+
+/*HEADER CENTER BUTTON*/
+.header-button {
+    border: solid 1px;
+    border-radius: 5px;
+    color: #ecebeb;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    padding: 10px 60px 10px 60px;
+    background-color: transparent;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+.header-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.header-button:hover {
+    color: white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    background-color: #e2dede1f;
+}
+.button-content {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+/*HEADER CENTER BUTTON END*/
+    /*--------->>HEADER CONTENT END <<----------*/
+
+    /*--------->>KODEL PROGRAMAVIMAS <<----------*/
+.content-block {
+    border-bottom: 3px solid white;
+    padding: 10px 0 25px 0;
+    border-radius: 22px;
+    border-top: 3px solid white;
+}
+
+.program-content {
+    background-color: #007bff;
+    padding: 40px 0;
+}
+.program-title  {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+    text-transform: uppercase;
+}
+.program-text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.program-footer {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+    /*--------->>KODEL PROGRAMAVIMAS END <<----------*/
+
+
+    /*--------->>FULLSTACK PROGRAMA<<----------*/
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+.box ul {
+    list-style: none;
+}
+.box-text {
+    width: 50%;
+    padding:  0 35px 0 0;
+}
+.sixweek {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+.subtitle {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.icon {
+    float: left;
+    width: 17px;
+    text-align: center;
+    margin-right: 10%;
+}
+.text {
+    overflow: hidden;
+    margin-bottom: 30px;
+    color: #838383;
+    font-size: 15px;
+}
+
+.price  {
+    text-align: center;
+    font-size: 20px;
+}
+
+.price span {
+    color: blue;
+}
+    /*--------->>FULLSTACK PROGRAMA END <<----------*/
+
+    /*--------->> KA MOKESI BAIGES KURSACONTENT <<----------*/
+.bg2 {
+    background-image: url("../img/bg2.jpg");
+    padding: 80px 0 55px 0;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg2-title {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.content3-text {
+    width: 50%;
+    padding:  20px 35px 0 30px;
+}
+.icon-check {
+    margin-right: 20px;
+    float: left;
+    width: 17px;
+    text-align: center;
+}
+.bg2-text {
+    overflow: hidden;
+    color: white;
+
+}
+    /*--------->>KA MOKESI BAIGES KURSA CONTENT END <<----------*/
+
+    /*--------->>KAS PO BAIGIMO CONTENT <<----------*/
+
+.content-title3 {
+    color: blue;
+    text-transform: uppercase;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.content-text3 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 780px;
+    font-size: 18px;
+}
+    /*--------->>KAS PO BAIGIMO CONTENT END <<----------*/
+
+    /*--------->> PARTNER OWL CARAUSEL  <<----------*/
+
+.container .owl-carousel {
+    padding: 5% 0 5% 0;
+}
+#owl-demo .item{
+    padding: 20%;
+}
+
+.owl-carousel .item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 80%;
+    max-height: 100%;
+
+}
+    /*--------->> PARTNER OWL CARAUSEL END  <<----------*/
+
+
+    /*--------->> FOOTER <<----------*/
+.footer-bg {
+    background-color: #007bff;
+    color: white;
+}
+.footer-content {
+    text-align: center;
+    padding: 20px 0 5px 0;
+}
+.footer-social {
+    text-align: right;
+    padding: 5px 20px;
+}
+.footer-social a {
+    margin: 0 5px;
+}
+    /*--------->> FOOTER END <<----------*/
+
+
+        /*=========>>> PAGE CONTACT  <<<=========*/
+
+.google-maps {
+    padding-top: 50px;
+    text-align: center;
+}
+.google-maps img {
+    width: 100%;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;}
+.title-line {
+    width: 65px;
+    border-top: 1px solid #dbdbdb;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email {
+    line-height: 50px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    width: 50%;
+}
+.email-name {
+    line-height: 50px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    width: 50%;
+}
+.email-message {
+    margin-top:25px;
+    padding-left: 10px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    padding-right: 10px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.email-send {
+    margin-top:38px;
+    margin-left: 5px;
+    color: #adb1b6;
+    background: url('../img/email-send.png') no-repeat left;
+    padding-left: 40px;
+    border: none;
+    cursor: pointer;
+}
+.contact-info {
+    width: 50%;
+}
+.contact-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+.contact-info ul li {
+    margin-top: 10px;
+}
+.contact-info p{
+    margin: 5px;
+    width: 90%;
+}
+.contact-form {
+    text-align: right;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.contact-icon {
+    margin-top: 10px;
+    float: left;
+    width: 40px;
+    text-align: center;
+}
+
+.contact-text {
+    overflow: hidden;
+    color: #838383;
+    font-size: 15px;
+}
+        /*=========>>> PAGE CONTACT END  <<<=========*/
+
+    /*--------->> RESPONSIVE <<----------*/
+
+/*!* Large desktop *!*/
+/*@media (min-width: 1024px) {*/
+/*}*/
+
+/* MD Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+.logo {
+    padding: 30px 15px;
+}
+/*KAS PO BAIGIMO*/
+.content3-text{
+    padding: 20px 10px 0 10px;
+}
+/*FULLSTACK PROGRAMA*/
+.box-text {
+    padding: 0 10px 0 0;
+}
+.icon {
+    width: 28px;
+}
+.email-name {
+    width: 100%;
+}
+.email {
+    width: 100%;
+}
+} /* MD Portrait tablet END */
+
+    /* SM Landscape phone */
+@media (max-width: 767px) {
+.logo {
+    padding: 30px 15px;
+}
+/*HEADER CONTENT*/
+.bg {
+    min-height: 45vh;
+    background-position: left;
+}
+.button-content {
+    padding-top: 100px;
+}
+
+/*FULLSTACK PROGRAMA*/
+.icon {
+    float: none;
+    margin: 5px auto;
+}
+.sixweek {
+    font-size: 22px;
+}
+.text {
+    margin-bottom: 20px;
+}
+.box-text {
+    padding: 0 15px 0 0;
+}
+/*KA MOKESI BAIGES KURSA*/
+.bg2 {
+    padding: 50px 0 45px 3px;
+}
+/*KAS PO BAIGIMO*/
+.content3-text {
+    width: 50%;
+    padding: 20px 15px 0 10px;
+}
+/*OWL CARUSEL*/
+.owl-carousel .item>img {
+    top: 0;
+    left: 40px;
+}
+/*FOOTER*/
+.footer-social {
+    text-align: center;
+    padding: 20px 20px;
+}
+.footer-social a {
+    margin: 0 13px;
+}
+    /*CONTANCT PAGE*/
+.contact-info {
+    width: 100%;
+}
+.contact-form {
+    width: 100%;
+}
+.email-name {
+    width: 100%;
+}
+.email {
+    width: 100%;
+}
+    /*CONTANCT PAGE END*/
+
+}/* SM Landscape phone END */
+
+
+
+    /* XS Landscape phones */
+
+@media (max-width: 480px){
+    /*HEADER CONTENT*/
+.logo {
+    padding: 30px 10px;
+}
+.logo img {
+    width: 60%;
+}
+.open {
+    top: 25px;
+    right: 20px;
+}
+.bg {
+    min-height: 35vh;
+    background-position: left;
+}
+.typing {
+    text-align: center;
+    width: 100%;
+    padding: 45px 10px 0 10px;
+    font-size: 23px;
+}
+.button-content {
+    padding-top: 110px;
+}
+.header-button {
+    padding: 8px 15px 8px 15px;
+}
+
+/*FULLSTACK PROGRAMA*/
+.box {
+    padding: 20px 10px;
+}
+.subtitle {
+    padding-bottom: 40px;
+    font-size: 12px;
+}
+.box-text {
+    width: 100%;
+    padding: 2%;
+}
+.sixweek {
+    font-size: 20px;
+}
+.icon {
+    float: none;
+    margin: 5px auto;
+}
+.text {
+    padding: 0 2%;
+}
+.program-footer {
+    font-size: 14px;
+    word-spacing: 2px;
+    width: 100%;
+    padding: 40px 10px 0 10px;
+}
+
+
+
+/*KA MOKESI BAIGES KURSA*/
+.bg2 {
+    padding: 35px 0 35px 0;
+}
+.bg2-title {
+    font-size: 27px;
+}
+.content3-text {
+    width: 100%;
+    padding: 10px;
+}
+/*KAS PO BAIGIMO*/
+.content-text3 {
+    font-size: 15px;
+    margin: 0 4px;
+}
+.content-title3 {
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.owl-carousel .item>img {
+     top: 2px;
+     left: 27px;
+}
+.footer-content {
+    font-size: 14px;
+}
+.footer-social {
+    text-align: center;
+    padding: 20px 10px;
+}
+.footer-social a {
+     margin: 0 13px;
+ }
+        /*CONTANCT PAGE*/
+.contact-info {
+    width: 100%;
+}
+.contact-form {
+    width: 100%;
+}
+.email-name {
+    width: 100%;
+}
+.email {
+    width: 100%;
+}
+
+        /*CONTANCT PAGE END*/
+
+}/* XS Landscape Phones END */
+
+
+
