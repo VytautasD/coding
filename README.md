@@ -1,5 +1,5 @@
 ### Vytautas Dvelys
-### Junior Front-end Developer
+### Junior WEB Developer
 ### Portfolio: http://imcoding.eu
 Working on small projects/websites. For private uses and local networks.
 Contact me: [VytautasDvelys@gmail.com](mailto:vytautasdvelys@gmail.com)
