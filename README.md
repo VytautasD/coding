@@ -15,7 +15,7 @@ Contact me: [VytautasDvelys@gmail.com](mailto:vytautasdvelys@gmail.com)
 ![demo](screenshots/mb.png)
 
 ### Liberty
-[Bootstrap/HTML code](Liberty)
+
 ![demo](screenshots/liberty.png)
 
 ### Burger menu
